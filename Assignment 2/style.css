@@ -1,0 +1,115 @@
+body
+{
+	
+}
+
+.home
+{
+	height: 50px;
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("img/bimage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+.home .btn
+{
+
+	padding: 10px 25px 10px 25px;
+	margin: 5px;
+	border-radius: 30px;
+	border:2px solid #ffffff;
+	background :transparent;
+
+}
+
+.home .btn:focus
+{
+
+	box-shadow: none !important;
+}
+.home .btn:hover
+{
+	border:2px solid #000000 !important;
+	background:#000000 !important;
+	transition: 0.6s;
+
+}
+.home .btn .fa
+{
+	margin-left: 10px;
+}
+.footer
+{
+	background:#000000;
+	height: 50px;
+	margin-top: 50px;
+	color: #ffffff;
+	padding-top: 10px;
+}
+.fa-heart-o
+{
+	color: red;
+}
+ 
+  /*-----social------*/
+
+
+ .social-icons
+ {
+
+ 	top: 50%;
+ 	transform: translateY(50%);
+ 	position: sticky;
+ 	z-index: 1;
+ 	width: 80px;
+ }
+ .social-icons ul
+ {
+ 	padding: initial;
+ }
+ .social-icons ul li
+ {
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: #ffffff;
+    background:#000000;
+
+ }
+ .social-icons ul li:hover
+ {
+
+ 	padding-left: 30px;
+ 	width: 80px;
+ 	transition: 1s;
+ }
+
+
+ /*-----quiz------*/
+
+.question{
+    font-weight: 600;
+}
+.answers {
+    margin-bottom: 20px;
+}
+#submit{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #297;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#submit:hover{
+    background-color: #3a8;
+}

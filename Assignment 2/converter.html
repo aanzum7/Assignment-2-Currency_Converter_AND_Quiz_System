@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Currency Converter</title>
+<link href="home.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section>
+    <div class="card" style="width: auto; height: auto; margin-left: 45rem; margin-top: 10rem;">
+  <div class="card-body">
+      <div class="col-md-6 well">
+    <h3 class="text-primary">Simple Currency Converter</h3>
+    <hr style="border-top:1px dotted #ccc;">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <h4>Converter</h4>
+      <hr style="border-top:1px groovy #ccc;"/>
+      <div class="form-group">
+        <select onchange="Currency(); Calculate()" class="form-control" id="converter" style="width:auto;">
+          <option value="Dollar">Dollar</option>
+          <option value="Pound">Pound</option>
+          <option value="Euro">Euro</option>
+          <option value="Yen">Yen</option>
+          <option value="Yuan">Yuan</option>
+          <option value="CAD">CAD</option>
+          <option value="AUD">AUD</option>
+          <option value="INR">INR</option>
+        </select>
+        <br />
+        <input type="number" oninput="Calculate()" class="form-control" id="value1"/>
+      </div>
+      <br /><br />
+      <div class="form-group">
+        <label>BDT</label>
+        <input type="number" class="form-control" id="value2" disabled="disabled"/>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+  </section>
+
+</body>
+<script src="converter.js"></script>
+</html>
